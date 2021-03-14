@@ -1,0 +1,45 @@
+body {
+  background: #eeeeee;
+  font-family: “Trebuchet MS”, Verdana, Arial, serif;
+  font-size: small;
+}
+
+.castlist {
+  display: grid;
+  grid-template-columns: 100mm 100mm;
+}
+
+.rolename {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.roledescription {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.act {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.linenumber {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.line {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.speaker {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.stage {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
